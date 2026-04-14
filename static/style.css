@@ -224,7 +224,7 @@ body.page-geo .section-head{padding:18px 22px;border-bottom:1px solid rgba(0,0,0
 body.page-geo .section-head h2{font-size:24px;color:#0f172a;margin-bottom:8px}
 body.page-geo .section-head p{max-width:900px;color:var(--sub);font-size:14px;line-height:1.85}
 body.page-geo .section-body{padding:22px}
-body.page-geo .mini-card, body.page-geo .cta-card{padding:18px}
+body.page-geo .mini-card, body.page-geo .cta-card{padding:20px}
 body.page-geo .mini-card p, body.page-geo .mini-card li, body.page-geo .cta-card p, body.page-geo .cta-card li{color:#475569;font-size:14px;line-height:1.9}
 body.page-geo .mini-card ul, body.page-geo .cta-card ul{padding-left:18px;margin-top:8px}
 body.page-geo .step-no{width:34px;height:34px;border-radius:999px;background:#dbeafe;color:var(--primary);font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;margin-bottom:12px}
@@ -639,7 +639,7 @@ body.page-home .contact-side-grid{
       align-content: start;
     }
 body.page-home .mini-card{
-      padding: 18px;
+      padding: 20px;
     }
 body.page-home .mini-card h3{
       font-size: 18px;
@@ -914,7 +914,7 @@ body.page-contact .field-grid-2{ grid-template-columns:1fr 1fr; }
 body.page-contact .contact-main, body.page-contact .contact-side{ padding:20px; }
 body.page-contact .contact-main h3, body.page-contact .contact-side h3, body.page-contact .mini-card h3{ font-size:20px; color:#0f172a; margin-bottom:10px; }
 body.page-contact .contact-main p, body.page-contact .contact-side p, body.page-contact .mini-card p, body.page-contact .mini-card li{ color:#475569; font-size:14px; line-height:1.9; }
-body.page-contact .mini-card{ padding:18px; }
+body.page-contact .mini-card{ padding:20px; }
 body.page-contact .mini-card ul{ padding-left:18px; margin-top:8px; }
 body.page-contact .contact-form{ margin-top:16px; display:grid; gap:12px; }
 body.page-contact .field{ display:flex; flex-direction:column; gap:8px; }
@@ -1009,7 +1009,7 @@ body.page-sem .section-head{padding:18px 22px;border-bottom:1px solid rgba(0,0,0
 body.page-sem .section-head h2{font-size:24px;color:#0f172a;margin-bottom:8px}
 body.page-sem .section-head p{max-width:900px;color:var(--sub);font-size:14px;line-height:1.85}
 body.page-sem .section-body{padding:22px}
-body.page-sem .mini-card, body.page-sem .cta-card{padding:18px}
+body.page-sem .mini-card, body.page-sem .cta-card{padding:20px}
 body.page-sem .mini-card p, body.page-sem .mini-card li, body.page-sem .cta-card p, body.page-sem .cta-card li{color:#475569;font-size:14px;line-height:1.9}
 body.page-sem .mini-card ul, body.page-sem .cta-card ul{padding-left:18px;margin-top:8px}
 body.page-sem .step-no{width:34px;height:34px;border-radius:999px;background:#dbeafe;color:var(--primary);font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;margin-bottom:12px}
@@ -1098,7 +1098,7 @@ body.page-seo .section-head{padding:18px 22px;border-bottom:1px solid rgba(0,0,0
 body.page-seo .section-head h2{font-size:24px;color:#0f172a;margin-bottom:8px}
 body.page-seo .section-head p{max-width:900px;color:var(--sub);font-size:14px;line-height:1.85}
 body.page-seo .section-body{padding:22px}
-body.page-seo .mini-card, body.page-seo .cta-card{padding:18px}
+body.page-seo .mini-card, body.page-seo .cta-card{padding:20px}
 body.page-seo .mini-card p, body.page-seo .mini-card li, body.page-seo .cta-card p, body.page-seo .cta-card li{color:#475569;font-size:14px;line-height:1.9}
 body.page-seo .mini-card ul, body.page-seo .cta-card ul{padding-left:18px;margin-top:8px}
 body.page-seo .step-no{width:34px;height:34px;border-radius:999px;background:#dbeafe;color:var(--primary);font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;margin-bottom:12px}
@@ -1130,5 +1130,8 @@ body.page-seo .summary-list{gap:10px}
 body.page-seo .summary-list li{font-size:14px;line-height:1.85}
 }
 
+body.page-home .contact-side .mini-card + .mini-card{margin-top:22px;}
+body.page-contact .contact-side .mini-card + .mini-card{margin-top:22px;}
+
 /* utilities */
-.mt-14{margin-top:14px;}
+.mt-14{margin-top:22px;}
